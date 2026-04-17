@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" width="180">
+  <img src="assets/icon.png" width="180">
 </p>
 
 <h1 align="center">⚡ Haywire</h1>
@@ -30,7 +30,7 @@ It gives you control over matchmaking regions for games that use AWS infrastruct
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://i.postimg.cc/4dL9mjZZ/Screenshot-2026-04-17-130841.png" width="800">
+  <img src="assets/screenshot.png" width="800">
 </p>
 
 ---

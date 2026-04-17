@@ -57,6 +57,11 @@ This region is heavily used for AWS routing and matchmaking. Blocking it may cau
 
 ---
 
+### 🔐 Safety Note
+
+Haywire is fully open-source and does not contain any malicious code.  
+You can review the source code before running it.
+
 ## ▶️ How to Run
 
 ### Option 1: Download Release (Recommended)
@@ -74,6 +79,28 @@ This region is heavily used for AWS routing and matchmaking. Blocking it may cau
 - If no regions apply → Run as Administrator
 - If app doesn’t start → Check Windows Defender SmartScreen
 - If rules don’t apply → Restart app as admin
+
+
+#### 🛡️ Windows SmartScreen Warning
+
+When running Haywire for the first time, Windows SmartScreen may show a warning like:
+
+> “Windows protected your PC”
+
+This happens because Haywire is not digitally signed (common for open-source tools).
+
+##### ▶️ How to run anyway:
+
+1. Click **More info**
+2. Click **Run anyway**
+
+##### ⚠️ Why this happens
+
+SmartScreen flags new or unsigned applications that don’t yet have a download reputation. This is normal for:
+
+- Open-source tools
+- Indie applications
+- Newly released software
 
 ---
 

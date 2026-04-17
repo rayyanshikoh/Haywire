@@ -10,7 +10,7 @@ Built for players who want tighter control over matchmaking regions in fog-heavy
 
 ---
 
-**Haywire** is a Windows utility that lets you control AWS GameLift routing by blocking or allowing specific AWS regions using Windows Firewall rules.
+Haywire applies Windows Firewall rules to block AWS GameLift regions and influence matchmaking routing.
 
 It gives you control over matchmaking regions for games that use AWS infrastructure.
 
@@ -24,6 +24,12 @@ It gives you control over matchmaking regions for games that use AWS infrastruct
 - 📊 Built-in log console
 - 🔐 Automatic admin elevation (UAC prompt)
 - 📦 Easy PyInstaller packaging
+
+---
+
+## 📸 Preview
+
+![Haywire UI](assets/screenshot.png)
 
 ---
 
@@ -53,13 +59,19 @@ This region is heavily used for AWS routing and matchmaking. Blocking it may cau
 
 ### Option 1: Download Release (Recommended)
 
-1. Go to the Releases page or click this <a href="">link</a>
+1. Go to the Releases page or click this <a href="https://github.com/rayyanshikoh/Haywire/releases">link</a>
 2. Download the latest Haywire.exe  
 3. Extract if zipped  
 4. Double-click Haywire.exe  
 5. Allow Administrator access (UAC prompt)
 
 > Admin permission is required for firewall modifications.
+
+#### 🛠️ Troubleshooting
+
+- If no regions apply → Run as Administrator
+- If app doesn’t start → Check Windows Defender SmartScreen
+- If rules don’t apply → Restart app as admin
 
 ---
 

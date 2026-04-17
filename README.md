@@ -4,7 +4,11 @@
 
 <h1 align="center">⚡ Haywire</h1>
 
+<p align="center">
 Built for players who want tighter control over matchmaking regions in fog-heavy competitive environments.
+</p>
+
+---
 
 **Haywire** is a Windows utility that lets you control AWS GameLift routing by blocking or allowing specific AWS regions using Windows Firewall rules.
 
@@ -28,6 +32,7 @@ It gives you control over matchmaking regions for games that use AWS infrastruct
 Do NOT block `us-east-1 (N. Virginia)` unless you understand the consequences.
 
 This region is heavily used for AWS routing and matchmaking. Blocking it may cause:
+
 - Failed matchmaking
 - Long queue times
 - Connection issues
@@ -44,20 +49,27 @@ This region is heavily used for AWS routing and matchmaking. Blocking it may cau
 
 ---
 
-## 🧱 Requirements
+## ▶️ How to Run
 
-- Python 3.10+
-- PySide6
-- requests
-- Windows OS
+### Option 1: Download Release (Recommended)
+
+1. Go to the Releases page or click this <a href="">link</a>
+2. Download the latest Haywire.exe  
+3. Extract if zipped  
+4. Double-click Haywire.exe  
+5. Allow Administrator access (UAC prompt)
+
+> Admin permission is required for firewall modifications.
+
+---
+
+### Option 2: Run from Source
 
 Install dependencies:
 
 pip install PySide6 requests
 
----
-
-## ▶️ Run from source
+Run:
 
 python app.py
 
@@ -77,10 +89,10 @@ dist/Haywire.exe
 
 ## 🧠 Tech Stack
 
-- Python  
-- PySide6 (Qt GUI)  
-- Windows Firewall (PowerShell)  
-- AWS IP Ranges API  
+- Python
+- PySide6 (Qt GUI)
+- Windows Firewall (PowerShell)
+- AWS IP Ranges API
 
 ---
 
@@ -89,8 +101,10 @@ dist/Haywire.exe
 Haywire/
 │── app.py
 │── icon.ico
+│── icon.png
 │── README.md
 │── .gitignore
+│── LICENSE
 │
 ├── build/
 ├── dist/
@@ -101,10 +115,11 @@ Haywire/
 ## ⚙️ Permissions
 
 Requires Administrator privileges for:
-- Creating firewall rules
-- Modifying outbound network access
 
-UAC prompt appears on launch.
+- Creating firewall rules  
+- Modifying outbound network access  
+
+A UAC prompt appears on launch.
 
 ---
 
@@ -112,8 +127,8 @@ UAC prompt appears on launch.
 
 Haywire is a network utility tool.  
 It is not affiliated with or endorsed by any game or developer.
-This tool modifies system firewall rules. Use responsibly.
 
+This tool modifies system firewall rules. Use responsibly.
 
 ---
 

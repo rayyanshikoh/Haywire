@@ -1,4 +1,10 @@
-# ⚡ Haywire
+<p align="center">
+  <img src="icon.png" width="180">
+</p>
+
+<h1 align="center">⚡ Haywire</h1>
+
+Built for players who want tighter control over matchmaking regions in fog-heavy competitive environments.
 
 **Haywire** is a Windows utility that lets you control AWS GameLift routing by blocking or allowing specific AWS regions using Windows Firewall rules.
 
@@ -104,7 +110,10 @@ UAC prompt appears on launch.
 
 ## 💡 Disclaimer
 
+Haywire is a network utility tool.  
+It is not affiliated with or endorsed by any game or developer.
 This tool modifies system firewall rules. Use responsibly.
+
 
 ---
 

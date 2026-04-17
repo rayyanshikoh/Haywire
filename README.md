@@ -29,7 +29,9 @@ It gives you control over matchmaking regions for games that use AWS infrastruct
 
 ## 📸 Preview
 
-[![Screenshot-2026-04-17-130841.png](https://i.postimg.cc/4dL9mjZZ/Screenshot-2026-04-17-130841.png)](https://postimg.cc/62Z3Pjy1)
+<p align="center">
+  <img src="https://i.postimg.cc/4dL9mjZZ/Screenshot-2026-04-17-130841.png" width="800">
+</p>
 
 ---
 
